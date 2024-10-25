@@ -39,3 +39,4 @@ console.log(typeof bigNumber);
 console.log(typeof myFunction);
 console.log(typeof heroes);
 
+
