@@ -43,14 +43,66 @@ const users = [
 ]
 
 
-console.log(tinderUser);
+//console.log(tinderUser);
 
 users[0].email
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
 
-console.log(tinderUser.hasOwnProperty('id'));
-console.log(tinderUser.hasOwnProperty('isLogged'));
+// console.log(tinderUser.hasOwnProperty('id'));
+// console.log(tinderUser.hasOwnProperty('isLogged'));
+
+
+// objects destructuring 
+
+const course = {
+    courseName: "js in hindi",
+    price: "999",
+    courseInstructor: "Rohit T"
+}
+
+//course.courseInstructor
+
+const {courseInstructor: instructor} = course
+
+//console.log(courseInstructor);
+
+console.log(instructor);
+
+
+// used in React in below way -
+
+// const navbar = ({company}) => {
+
+// }
+
+// navbar(company = "rohit")
+
+
+// APIs
+
+// JSON structure below
+
+// {
+//     "name": "rohit",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
+
+
+// good website for sample JSON response from APIs
+
+// https://randomuser.me/ 
+
+// use JSON formatter to better understand the structure of 
+// API response , go to this https://jsonformatter.org/ 
+
